@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: lightblue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Deixa os itens da lista ordenados horizontalmente */
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilize os links (âncoras) dentro dos itens da lista */
+nav a {
+    display: block; /* Isso torna todo o espaço do item da lista clicável */
+    color: rgb(83, 83, 83); /* Cor do texto */
+    text-decoration: none; /* Remova o sublinhado padrão dos links */
+    padding: 15px 20px; /* Espaçamento interno (ajuste conforme necessário) */
+    text-align: center; /* Centralize o texto horizontalmente no botão */
+}
+
+/* Estilize os links quando o mouse passar por cima */
+nav a:hover {
+    background-color: rgb(54, 178, 219); /* Cor de fundo quando o mouse passa por cima */
+}
+
+
+.bg_clinica {
+    background-color: aquamarine;
+    margin-left: 0%;
+    border-top: inset;
+    padding-bottom: 200%;
+    display: block;
+    align-items: center;
+    text-align: -webkit-center;
+
+}
+
+.Container {
+    background-color: lightblue;
+    max-width: 300px;
+    max-height: 150px;
+    height: 100%;
+    width: 100%;
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-bottom-style: outset;
+}
+
+.Container_cadastro {
+    background-color: lightblue;
+    max-width: 300px;
+    max-height: 350px;
+    height: 100%;
+    width: 100%;
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    border-bottom-style: outset;
+}
+
+.Container_PerfilTerapeuta {
+    background-color: lightblue;
+    max-width: 300px;
+    /* height: 100%; */
+    width: 100%;
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    border-bottom-style: outset;
+}
+
+.Title_Login {
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+}
+
+table {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0074d9;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
